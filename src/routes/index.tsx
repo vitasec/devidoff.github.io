@@ -6,20 +6,20 @@ import { Tessellation } from "@/components/Tessellation";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "0day — Personal" },
-      { name: "description", content: "Pentester / Builder / Entrepreneur — personal landing page." },
-      { property: "og:title", content: "0day — Personal" },
-      { property: "og:description", content: "Pentester / Builder / Entrepreneur — personal landing page." },
+      { title: "David Abdurahmanov" },
+      { name: "description", content: "Pentester " },
+      { property: "og:title", content: "David Abdurahmanov" },
+      { property: "og:description", content: "Pentester " },
     ],
   }),
   component: Index,
 });
 
 const socials = [
-  { href: "https://instagram.com", label: "Instagram", Icon: Instagram },
-  { href: "https://youtube.com", label: "YouTube", Icon: Youtube },
-  { href: "https://linkedin.com", label: "LinkedIn", Icon: Linkedin },
-  { href: "https://github.com", label: "GitHub", Icon: Github },
+  { href: "https://www.instagram.com/dddaaaaavvdd/", label: "Instagram", Icon: Instagram },
+  { href: "https://youtube.com/come-in-soon", label: "YouTube", Icon: Youtube },
+  { href: "https://www.linkedin.com/in/david-a-b6991b332/", label: "LinkedIn", Icon: Linkedin },
+  { href: "https://github.com/vitasec", label: "GitHub", Icon: Github },
 ];
 
 function Index() {
@@ -65,11 +65,11 @@ function Index() {
       </section>
 
       <a
-        href="mailto:hello@example.com"
+        href="mailto:davidabdurahmanov1@proton.me"
         className="fixed bottom-4 right-4 z-10 inline-flex items-center gap-2 rounded-md border border-border bg-card/80 px-3 py-2 font-mono text-xs text-foreground backdrop-blur transition-colors hover:bg-card"
       >
         <Mail className="h-3.5 w-3.5" />
-        hello@example.com
+        davidabdurahmanov1@proton.me
       </a>
     </main>
   );
