@@ -6,7 +6,7 @@ import { Tessellation } from "@/components/Tessellation";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "David Abdurahmanov" },
+      { title: "vitasec" },
       { name: "description", content: "Pentester " },
       { property: "og:title", content: "David Abdurahmanov" },
       { property: "og:description", content: "Pentester " },
@@ -16,10 +16,10 @@ export const Route = createFileRoute("/")({
 });
 
 const socials = [
-  { href: "https://www.instagram.com/dddaaaaavvdd/", label: "Instagram", Icon: Instagram },
-  { href: "https://youtube.com/come-in-soon", label: "YouTube", Icon: Youtube },
   { href: "https://www.linkedin.com/in/david-a-b6991b332/", label: "LinkedIn", Icon: Linkedin },
   { href: "https://github.com/vitasec", label: "GitHub", Icon: Github },
+  { href: "https://www.instagram.com/dddaaaaavvdd/", label: "Instagram", Icon: Instagram },
+  { href: "https://youtube.com/come-in-soon", label: "YouTube", Icon: Youtube },
 ];
 
 function Index() {
@@ -39,11 +39,11 @@ function Index() {
 
           <div className="flex flex-col items-center text-center sm:items-start sm:text-left">
             <h1 className="font-mono text-6xl font-black tracking-tight sm:text-8xl">
-              0day
+            vitasec
             </h1>
-            <p className="mt-4 font-mono text-lg sm:text-xl">Your Name Here</p>
+            <p className="mt-4 font-mono text-lg sm:text-xl">David Abdurahmanov</p>
             <p className="mt-2 font-mono text-sm text-muted-foreground sm:text-base">
-              Pentester / Builder / Entrepreneur
+              Pentester 
             </p>
 
             <div className="mt-6 flex items-center gap-5">
