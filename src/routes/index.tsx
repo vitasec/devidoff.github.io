@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Github, Instagram, Linkedin, Youtube, Mail } from "lucide-react";
 import avatar from "@/assets/avatar.jpg";
-import { MatrixRain } from "@/components/MatrixRain";
+import { WaveGrid } from "@/components/WaveGrid";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -25,7 +25,7 @@ const socials = [
 function Index() {
   return (
     <main className="relative min-h-screen overflow-hidden bg-background text-foreground">
-      <MatrixRain />
+      <WaveGrid />
 
       <section className="relative z-10 flex min-h-screen items-center justify-center px-6">
         <div className="flex flex-col items-center gap-8 sm:flex-row sm:gap-12">
